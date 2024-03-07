@@ -1,0 +1,99 @@
+a {
+    display: inline;
+    margin: 10px;
+}
+
+p.nike{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+}
+
+p.valor1 {
+    color: red;
+    text-transform: lowercase;
+    font-weight: bold;
+    margin: 10px;
+}
+
+p.free {
+    color: black;
+    margin: 10px;
+    
+}
+
+
+
+.botao1 {
+    border: 0;
+    border-radius: 14px;
+    padding: 7px 20px 7px 20px; /*padding: padding-top, padding-right, padding-bottom,padding-left */
+    margin: 10px;
+    cursor: pointer;
+    background-color: yellow;
+    outline: none;
+    
+}
+
+.botao1:focus, .botao1:active {
+    outline: none;
+}
+
+.botao2 {
+    border: 0;
+    border-radius: 14px;
+    padding: 7px 20px 7px 20px; /*padding: padding-top, padding-right, padding-bottom,padding-left */
+    cursor: pointer;
+    background-color: orange;
+    outline: none;
+    
+    
+}
+
+
+
+
+.botao1:hover {
+    opacity: 0.1;
+}
+
+.botao2:hover {
+    opacity: 0.1;
+    
+}
+
+/* 2.CODIFIQUE OS BOTÕES: */
+
+.botoes {
+    top:40px;
+    
+}
+
+.candidatar {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border: solid 1px rgb(10, 102, 194);
+    border-radius: 25px;
+    padding: 10px 50px 10px 45px; /*padding: padding-top, padding-right, padding-bottom,padding-left */
+    cursor: pointer;
+    background-color: rgb(10, 102, 194);
+    outline: none;
+    margin: 10px;
+    
+}
+
+.salvar {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(10, 102, 194);
+    border: solid 1px rgb(10, 102, 194);
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px; /*padding: padding-top, padding-right, padding-bottom,padding-left */
+    cursor: pointer;
+    background-color:white;
+    outline: none;
+}
+
